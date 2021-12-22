@@ -136,14 +136,24 @@ main.main {
     background: rgba(0,0,0,0.7);
     font-size: 20px;
     padding-left: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    margin: 5px 0;
     height: 40px;
     overflow: hidden;
     line-height: 40px;
-    transition: height 0.3s;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.day:hover {
+    background: rgba(0,0,0,0.9);
 }
 
 .day.active {
     height: auto;
+    border-radius: 5px;
 }
 
 .day .lesson_number {
