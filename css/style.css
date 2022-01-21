@@ -244,3 +244,61 @@ button.login:hover {
     box-shadow: 0 0 30px #b85b53;
     background: #b85b5350;
 }
+
+
+@media screen and (max-width: 1240px) {
+    .main__content {
+        flex-direction: column-reverse;
+    }
+
+    .nav {
+        padding: 0;
+    }
+
+    .forms {
+        width: 100%;
+    }
+
+    .wrapper {
+        width: 80%;
+    }
+
+    .nav__container {
+        flex-direction: row;
+        height: 100px;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .nav__container > li button > i {
+        font-size: 30px;
+    }
+    .nav__container > li button > p {
+        display: none;
+    }
+
+    .nav__container > li button {
+        width: 60px;
+        height: 60px;
+        margin: 0px 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0 5px;
+    }
+
+    .nav__container > li button > i {
+        font-size: 20px;
+    }
+
+    .nav__container > li button {
+        width: 40px;
+        height: 40px;
+        margin: 0px 20px;
+    }
+}
