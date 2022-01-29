@@ -16,7 +16,6 @@ buttons.forEach(element => {
             });
             forms.querySelector(`.form.${this.className}`).classList.add('active');
             currentform = this.className;
-            console.log(currentform);
             changeForm = true;
         }
     });
